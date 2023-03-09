@@ -11,6 +11,7 @@ public class C01_JUnitIlkTest {
     @Test
     public void test01(){
         System.out.println("Hello World");
+        System.out.println("Amasya Coffee & Study");
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
